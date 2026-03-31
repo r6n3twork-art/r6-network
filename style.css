@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background:
+    radial-gradient(circle at top left, rgba(0, 123, 255, 0.18), transparent 34%),
+    radial-gradient(circle at top right, rgba(255, 193, 7, 0.16), transparent 28%),
+    #e6f2f2;
+}
+
+/* HERO */
+.hero-container {
+  display: flex;
+  justify-content: center;
+  padding: 120px 20px 60px;
+}
+
+.hero-card {
+  background: rgba(255,255,255,0.8);
+  backdrop-filter: blur(20px);
+  padding: 60px;
+  border-radius: 40px;
+  max-width: 900px;
+  width: 100%;
+  box-shadow: 0 30px 80px rgba(0,0,0,0.1);
+}
+
+.brand {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.subtitle {
+  color: #6c757d;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 0 0 20px;
+}
+
+.description {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 14px 30px;
+  background: #111827;
+  color: white;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+/* SERVICES */
+.services {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: rgba(255,255,255,0.7);
+  backdrop-filter: blur(20px);
+  padding: 30px;
+  border-radius: 30px;
+  min-width: 260px;
+  text-align: center;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+}
